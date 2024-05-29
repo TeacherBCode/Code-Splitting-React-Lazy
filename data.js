@@ -10,4 +10,5 @@ const products = new Array(50).fill(null).map(() => ({
     quantity: faker.number.int({min: 0, max: 100})
 }))
 
+
 export default products 
